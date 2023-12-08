@@ -2,8 +2,8 @@ import COS from "cos-js-sdk-v5";
 
 export const upload_imgs = function (files: any) {
   let cos = new COS({
-    SecretId: "AKIDLfsy450vqV4XwHXfgh9Uiu41sfRWTHxY",
-    SecretKey: "iYK5ylTA81rZEvV3gMJIF3h9UMzVq250",
+    SecretId: "",
+    SecretKey: "",
   });
 
   return new Promise((resolve) => {
