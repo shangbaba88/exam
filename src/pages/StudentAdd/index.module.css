@@ -1,0 +1,49 @@
+.wrap {
+  height: calc(100vh - 150px);
+  background: pink;
+  /* display: flex; */
+}
+
+.top {
+  height: 50px;
+  background: #ccc;
+  display: flex;
+}
+
+.top_left {
+  line-height: 50px;
+  padding-left: 30px;
+  border-left: 5px solid rgb(227, 227, 228);
+  min-width: 150px;
+}
+
+.top_right {
+  margin-top: 10px;
+  margin-left: 20px;
+  width: 300px;
+}
+
+.add_button {
+  margin-top: 10px;
+  margin-left: 20px;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 200px);
+  background: rgb(153, 153, 153);
+}
+
+.left {
+  background: rgb(190, 190, 190);
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
+
+.right {
+  background: rgb(179, 179, 179);
+  padding: 20px;
+  flex: 1;
+  overflow-y: auto;
+}
